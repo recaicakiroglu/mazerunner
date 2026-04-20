@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-bg-primary: #080808;
+  --color-bg-primary: #000000;
   --color-bg-surface: #111111;
   --color-bg-surface-hover: #1a1a1a;
   --color-bg-card: #141414;
