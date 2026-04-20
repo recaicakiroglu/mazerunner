@@ -11,7 +11,7 @@
         :src="show.image.medium"
         :alt="show.name"
         loading="lazy"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover object-top"
       />
       <div
         v-else
