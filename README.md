@@ -201,8 +201,8 @@ Each genre maintains two arrays: `rated[]` and `unrated[]`. Rated shows always a
 
 Full `ratingSort` (descending, nulls last) runs only at:
 
-1. **Initial load** — all genres sorted once after the initial pages (`INITIAL_PAGES`) are processed
-2. **Genre activation** — sorted once when the user switches to a genre
+1. **Genre activation** — sorted once when the user switches to a genre
+2. **Load more** — sorted once after each bulk fetch, only for the active genre
 
 ---
 
