@@ -1,7 +1,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 // RecycleScroller requires a fixed pixel row height — it cannot measure rows itself.
-// itemSize derives height from the card's 3/4 aspect ratio + 104px info bar, accounting for gaps.
+// itemSize derives height from the card's 210/295 aspect ratio (TVMaze medium portrait) + 104px info bar, accounting for gaps.
 export function useRecycleScrollerLayout() {
   const winWidth = ref(window.innerWidth)
 
@@ -18,7 +18,7 @@ export function useRecycleScrollerLayout() {
   const itemSize = computed(() => {
     const contentW = Math.min(winWidth.value - 32, 1248) - 16
     const cardW = (contentW - (colCount.value - 1) * 24) / colCount.value
-    return Math.round((cardW * 4) / 3) + 104
+    return Math.round((cardW * 295) / 210) + 104
   })
 
   function onResize() {

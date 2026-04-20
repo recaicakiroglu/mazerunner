@@ -5,13 +5,13 @@
     class="block w-full transition-transform duration-150 hover:scale-105 group rounded-lg overflow-hidden bg-bg-surface"
   >
     <!-- Poster -->
-    <div class="relative aspect-3/4">
+    <div class="relative aspect-210/295">
       <img
         v-if="show.image"
         :src="show.image.medium"
         :alt="show.name"
         loading="lazy"
-        class="w-full h-full object-cover object-top"
+        class="w-full h-full object-cover"
       />
       <div
         v-else
