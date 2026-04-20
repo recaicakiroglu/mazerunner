@@ -6,11 +6,11 @@ A TV show discovery app built with Vue 3, Pinia, and TypeScript, powered by the 
 
 ---
 
-![MazeRunner](https://github.com/user-attachments/assets/e9326807-7ede-48ca-85fb-f5c27b3d8370)
+![MazeRunner](https://github.com/user-attachments/assets/bdcd3d2f-513d-4383-ba86-c267e5a0076d)
 
 ---
 
-![MazeRunner](https://github.com/user-attachments/assets/08409ad8-3bcd-4d6c-8447-6138001b8021)
+![MazeRunner](https://github.com/user-attachments/assets/701ada06-2731-440d-b69b-4d9ca8d8bf4d)
 
 ---
 
